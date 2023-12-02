@@ -1,7 +1,7 @@
 const int pingPin = 7;
-const int echoPin = 6;  // Trigger Pin of Ultrasonic Sensor const int echoPin = 6; // Echo Pin of
+const int echoPin = 6;  // Trigger Pin of Ultrasonic Sensor const int echoPin = 6; // Echo Pin ofUltrasonic Sensor 
 
-Ultrasonic Sensor void setup() {
+void setup() {
   Serial.begin(9600);
   pinMode(pingPin, OUTPUT);
   pinMode(echoPin, INPUT);
